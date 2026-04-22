@@ -9,13 +9,13 @@ from tqdm import tqdm
 # ================= 配置区域 =================
 
 # 1. 输入文件夹 (上一步裁剪好的512图片文件夹)
-INPUT_ROOT = "/Users/fron/codes/CapstoneCUC/row_storage/img_data/processed_dataset_512"
+INPUT_ROOT = "./img_data/processed_dataset_512"
 
 # 2. 输出文件夹 (最终用于训练的拼图)
-OUTPUT_ROOT = "/Users/fron/codes/CapstoneCUC/row_storage/img_data/training_dataset_1024"
+OUTPUT_ROOT = "./img_data/training_dataset_1024"
 
 # 3. 本地 CLIP 模型路径 (你提供的路径)
-LOCAL_CLIP_PATH = "/Users/fron/codes/CapstoneCUC/CLIP/ViT-B-32.pt"
+LOCAL_CLIP_PATH = "./CLIP/ViT-B-32.pt"
 
 # 拼图设置
 GRID_SIZE = 1024

@@ -10,7 +10,7 @@ import re
 import emoji
 
 # 1. 读取 Excel 文件
-file_path = '/Users/fron/codes/CapstoneCUC/row_storage/txt_data/rednote_txt.xlsx' 
+file_path = './txt_data/rednote_txt.xlsx' 
 df = pd.read_excel(file_path)
 
 print(f"原始数据行数: {len(df)}")

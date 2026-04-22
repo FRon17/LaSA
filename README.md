@@ -11,7 +11,7 @@
   <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License"></a>
 </p>
 
-> **中国传媒大学 广告学（计算广告） 本科毕业论文开源项目**
+> **中国传媒大学 广告学（计算广告双学士学位复合型人才培养项目） 本科毕业论文开源项目**
 > 
 > **中文标题：** 汽车图文广告的自动化标签体系与可控生成方法研究——以特斯拉 Model Y 为例
 > 
@@ -21,7 +21,7 @@
 
 本项目针对汽车广告视觉物料生产中“车辆 ID 易漂移”与“多图宏观风格易割裂”的痛点，提出了一种**数据洞察驱动 + 底层算法约束**的全新 AIGC 内容生产范式。
 
-基于当前最强的开源扩散模型 **FLUX.1-dev**，本项目创新性地提出了 **LaSA (Latent Statistical Alignment, 潜空间统计量对齐)** 模块，结合 In-Context LoRA (IC-LoRA) 机制，实现了在保持极高车辆 ID 准确率的前提下，生成具有高度宏观风格一致性的 2x2 网格成套广告物料。
+基于开源扩散模型 **FLUX.1-dev**，本项目创新性地提出了 **LaSA (Latent Statistical Alignment, 潜空间统计量对齐)** 模块，结合 In-Context LoRA (IC-LoRA) 机制，实现了在保持极高车辆 ID 准确率的前提下，生成具有高度宏观风格一致性的 2x2 网格成套广告物料。
 
 ## ✨ 核心特性 (Key Features)
 

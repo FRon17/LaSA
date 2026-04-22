@@ -8,7 +8,7 @@ import time
 # ================= 配置区域 =================
 
 # 1. 输入文件夹 (拼好的1024图片文件夹)
-INPUT_ROOT = "/Users/fron/codes/CapstoneCUC/row_storage/img_data/training_dataset_1024"
+INPUT_ROOT = "./img_data/training_dataset_1024"
 
 # 2. 硅基流动 API Key (请替换为你自己的 Key)
 API_KEY = "sk-xxx"  # <--- 替换这里！

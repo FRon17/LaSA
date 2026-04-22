@@ -33,7 +33,6 @@
 ## 🏗️ 算法架构 (Architecture)
 
 ### 1. 综合框架
-<div align="center"><img width="376" height="594" alt="截屏2026-04-22 16 36 08" src="https://github.com/user-attachments/assets/7ca87b0a-8c0c-41f2-a47f-e5870e725d5b" />
 
   <!-- 替换为你的图1.1 -->
   <img width="810" height="706" alt="截屏2026-04-22 16 35 13" src="https://github.com/user-attachments/assets/b8a1f0c2-f1dd-4e29-82c1-d67cc7f14762" />
@@ -50,18 +49,43 @@
 相比于原生的 FLUX 模型，本项目在色彩一致性上提升了 **55.6%**，彻底解决了多图生成中的宏观风格割裂问题。
 
 ### Baseline vs Ours
+
 | 原生 FLUX.1-dev (Baseline) | LaSA + IC-LoRA (Ours) |
 | :---: | :---: |
-| <!-- 替换为图5.4 --> <img width="171" height="170" alt="截屏2026-04-22 16 37 29" src="https://github.com/user-attachments/assets/e50211de-66f1-46df-a417-a300cce3ad6c" />
- | <!-- 替换为图5.9 --> <img width="170" height="169" alt="截屏2026-04-22 16 38 07" src="https://github.com/user-attachments/assets/25e48659-d760-43ee-af42-9665c57b77ed" />
- |
-| 车辆 ID 混淆，四个子图色彩、光影完全割裂 | **车辆 ID 精准，光影色调高度统一，具备商业质感** |
+| <img width="450" alt="Baseline 2x2 Grid" src="https://github.com/user-attachments/assets/e50211de-66f1-46df-a417-a300cce3ad6c" /> | <img width="450" alt="Ours 2x2 Grid" src="https://github.com/user-attachments/assets/25e48659-d760-43ee-af42-9665c57b77ed" /> |
+| **失败案例**：车辆 ID 混淆（前脸/车型不一），四个子图的色彩、光影与背景逻辑完全割裂。 | **成功案例**：车辆 ID 精准锁定，四个视角的宏观光影、色调高度统一，具备成套商业海报质感。 |
 
 ### 更多场景展示 (More Scenarios)
 <img width="363" height="174" alt="截屏2026-04-22 16 38 57" src="https://github.com/user-attachments/assets/5cbfc387-542d-45a7-baa0-48adc7dd6800" />
 <img width="366" height="174" alt="截屏2026-04-22 16 38 44" src="https://github.com/user-attachments/assets/f38a3a42-e922-46c4-98ff-c0f258c9dc11" />
 <img width="361" height="173" alt="截屏2026-04-22 16 39 17" src="https://github.com/user-attachments/assets/6654ab1c-2fba-4a18-8d7b-02d8be8ae73c" />
 
+## 📝数据准备 (Data Preparation)
+本项目使用的数据集构建流程包含 YOLOv8 裁切、CLIP 相似度匹配与 Qwen-VL 联合打标。详见'DataEngineering'文件夹。
 
-## 附赠手稿一张
+## 🥊模型训练与推理(Training & Inference)
+训练与推理相关配置、代码详见AlgorithmLaSA文件夹。
+
+## 📊评价指标 (Evaluation)
+我们构建了包含局部/全局 CLIP Score、风格相似度、色彩直方图相似度的多维评价体系。详细的消融实验和定量分析请参考论文第五章。
+
+## 🎁附赠手稿一张
 <img width="1029" height="580" alt="截屏2026-04-22 16 23 00" src="https://github.com/user-attachments/assets/e2a6cbf9-1a26-498d-9f3c-cb549bafca2a" />
+
+## 🫶🏻 引用 (Citation)
+如果您觉得本项目对您的研究或工作有帮助，欢迎引用：
+
+Bibtex
+@thesis{fang2026lasa,
+  title={汽车图文广告的自动化标签体系与可控生成方法研究——以特斯拉 Model Y 为例},
+  author={方融},
+  school={中国传媒大学},
+  year={2026},
+  type={本科毕业论文}
+}
+
+## 🤝 致谢 (Acknowledgements)
+感谢我的导师王薇老师、左然老师的悉心指导。感谢中国传媒大学**广告与品牌学院**和**数据科学与智能媒体学院**的培养。
+
+✉️ 联系方式 (Contact)
+如有任何问题，欢迎提交 Issue 或通过邮件联系：fangrong17@163.com

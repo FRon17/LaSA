@@ -6,10 +6,10 @@ import numpy as np
 
 # ================= 配置区域 =================
 # 输入文件夹的根目录 (请修改为你自己的路径)
-INPUT_ROOT = "/Users/fron/codes/CapstoneCUC/row_storage/img_data/LoRAs"
+INPUT_ROOT = "./img_data/LoRAs"
 
 # 输出文件夹的根目录 (脚本会自动创建)
-OUTPUT_ROOT = "/Users/fron/codes/CapstoneCUC/processed_dataset_512"
+OUTPUT_ROOT = "./processed_dataset_512"
 
 # 目标尺寸
 TARGET_SIZE = 512

@@ -1,4 +1,3 @@
-<img width="908" height="432" alt="截屏2026-04-22 17 01 43" src="https://github.com/user-attachments/assets/f9c77d62-c734-41e0-a110-3aea6dd95575" />
 # LaSA: Latent Statistical Alignment for Controllable Automotive Image Generation
 
 <div align="center">

@@ -67,13 +67,13 @@
 </p>
 
 ## 📝数据准备 (Data Preparation)
-本项目使用的数据集构建流程包含 YOLOv8 裁切、CLIP 相似度匹配与 Qwen-VL 联合打标。详见'DataEngineering'文件夹。
+本项目使用的数据集构建流程包含 YOLOv8 裁切、CLIP 相似度匹配与 Qwen-VL 联合打标。详见**DataEngineering**文件夹。
 
 ## 🥊模型训练与推理(Training & Inference)
-训练与推理相关配置、代码详见AlgorithmLaSA文件夹。
+训练与推理相关配置、代码详见**AlgorithmLaSA**文件夹。
 
 ## 📊评价指标 (Evaluation)
-我们构建了包含局部/全局 CLIP Score、风格相似度、色彩直方图相似度的多维评价体系。详细的消融实验和定量分析请参考论文第五章。
+我们构建了包含局部/全局 CLIP Score、风格相似度、色彩直方图相似度的多维评价体系。详细的消融实验和定量分析请参考**论文第五章**。
 
 ## 🎁附赠手稿一张
 <img width="1029" height="580" alt="截屏2026-04-22 16 23 00" src="https://github.com/user-attachments/assets/e2a6cbf9-1a26-498d-9f3c-cb549bafca2a" />

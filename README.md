@@ -1,3 +1,4 @@
+<img width="908" height="432" alt="截屏2026-04-22 17 01 43" src="https://github.com/user-attachments/assets/f9c77d62-c734-41e0-a110-3aea6dd95575" />
 # LaSA: Latent Statistical Alignment for Controllable Automotive Image Generation
 
 <div align="center">
@@ -56,9 +57,15 @@
 | **失败案例**：车辆 ID 混淆（前脸/车型不一），四个子图的色彩、光影与背景逻辑完全割裂。 | **成功案例**：车辆 ID 精准锁定，四个视角的宏观光影、色调高度统一，具备成套商业海报质感。 |
 
 ### 更多场景展示 (More Scenarios)
-<img width="363" height="174" alt="截屏2026-04-22 16 38 57" src="https://github.com/user-attachments/assets/5cbfc387-542d-45a7-baa0-48adc7dd6800" />
-<img width="366" height="174" alt="截屏2026-04-22 16 38 44" src="https://github.com/user-attachments/assets/f38a3a42-e922-46c4-98ff-c0f258c9dc11" />
-<img width="361" height="173" alt="截屏2026-04-22 16 39 17" src="https://github.com/user-attachments/assets/6654ab1c-2fba-4a18-8d7b-02d8be8ae73c" />
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/5cbfc387-542d-45a7-baa0-48adc7dd6800" width="49%" alt="场景展示 1" />
+  <img src="https://github.com/user-attachments/assets/f38a3a42-e922-46c4-98ff-c0f258c9dc11" width="49%" alt="场景展示 2" />
+</p>
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/6654ab1c-2fba-4a18-8d7b-02d8be8ae73c" width="49%" alt="场景展示 3" />
+  <img src="https://github.com/user-attachments/assets/26165e62-382b-4538-afb3-c0a7dd4e2956" width="49%" alt="场景展示 4" />
+</p>
 
 ## 📝数据准备 (Data Preparation)
 本项目使用的数据集构建流程包含 YOLOv8 裁切、CLIP 相似度匹配与 Qwen-VL 联合打标。详见'DataEngineering'文件夹。

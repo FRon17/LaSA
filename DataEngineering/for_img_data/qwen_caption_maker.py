@@ -11,7 +11,7 @@ import time
 INPUT_ROOT = "/Users/fron/codes/CapstoneCUC/row_storage/img_data/training_dataset_1024"
 
 # 2. 硅基流动 API Key (请替换为你自己的 Key)
-API_KEY = "sk-exnfevuvrfvvsnihchhmzdgannmzsnmzvsekudhrjbafxfiv"  # <--- 替换这里！
+API_KEY = "sk-xxx"  # <--- 替换这里！
 
 # 3. API 地址 (硅基流动 Qwen-VL-Max)
 API_URL = "https://api.siliconflow.cn/v1/chat/completions"

@@ -1,8 +1,8 @@
-# LaSA: Latent Statistical Alignment for Controllable Automotive Image Generation
+<img width="626" height="626" alt="图片 17" src="https://github.com/user-attachments/assets/e93c37fa-0d3e-4b0f-8c47-c66974b88a3c" /># LaSA: Latent Statistical Alignment for Controllable Automotive Image Generation
 
 <div align="center">
   <!-- 这里放一张你最满意的 2x2 生成结果图作为封面 -->
-  <img src="./assets/hero_image.png" alt="LaSA Generated Tesla Model Y" width="800"/>
+  <img width="626" height="626" alt="图片 17" src="https://github.com/user-attachments/assets/9e1a3753-403d-4bc8-8535-d45354a08cfb" />
 </div>
 
 <p align="center">

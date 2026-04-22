@@ -78,20 +78,8 @@
 ## 🎁附赠手稿一张
 <img width="1029" height="580" alt="截屏2026-04-22 16 23 00" src="https://github.com/user-attachments/assets/e2a6cbf9-1a26-498d-9f3c-cb549bafca2a" />
 
-## 🫶🏻 引用 (Citation)
-如果您觉得本项目对您的研究或工作有帮助，欢迎引用：
-
-Bibtex
-@thesis{fang2026lasa,
-  title={汽车图文广告的自动化标签体系与可控生成方法研究——以特斯拉 Model Y 为例},
-  author={方融},
-  school={中国传媒大学},
-  year={2026},
-  type={本科毕业论文}
-}
-
 ## 🤝 致谢 (Acknowledgements)
-感谢我的导师王薇老师、左然老师的悉心指导。感谢中国传媒大学**广告与品牌学院**和**数据科学与智能媒体学院**的培养。
+感谢我的两位**导师**的悉心指导。感谢中国传媒大学**广告与品牌学院**和**数据科学与智能媒体学院**的培养。
 
 ✉️ 联系方式 (Contact)
 如有任何问题，欢迎提交 Issue 或通过邮件联系：fangrong17@163.com

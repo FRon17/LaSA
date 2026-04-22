@@ -4,13 +4,13 @@ import jieba
 
 # =================配置区域=================
 # 1. 输入文件路径 (上一以生成的清洗后的文件)
-input_file = '/Users/fron/codes/CapstoneCUC/row_storage/txt_data/cleaned_tesla_data.xlsx' 
+input_file = './txt_data/cleaned_tesla_data.xlsx' 
 
 # 2. 停用词表路径 (你提供的路径)
-stopwords_path = '/Users/fron/codes/CapstoneCUC/code_scripts/for_lora_b/哈工大停用词表.txt'
+stopwords_path = './for_lora_b/哈工大停用词表.txt'
 
 # 3. 输出文件路径
-output_file = '/Users/fron/codes/CapstoneCUC/row_storage/txt_data/segmented_tesla_data.xlsx'
+output_file = './txt_data/segmented_tesla_data.xlsx'
 # =========================================
 
 # --- 第一步：加载数据与停用词 ---

@@ -4,7 +4,7 @@ import jieba.posseg as pseg
 from sklearn.feature_extraction.text import TfidfVectorizer
 
 # 1. 读取数据
-input_file = '/Users/fron/codes/CapstoneCUC/row_storage/txt_data/segmented_tesla_data.xlsx'
+input_file = './segmented_tesla_data.xlsx'
 df = pd.read_excel(input_file)
 
 # 2. 【升级版】强力清洗黑名单
